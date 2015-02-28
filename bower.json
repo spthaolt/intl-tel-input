@@ -1,12 +1,17 @@
 {
   "name": "intl-tel-input",
-  "version": "0.8.3",
+  "version": "5.5.0",
   "main": [
-      "./build/js/intlTelInput.min.js",
-      "./build/img/flags16.png",
-      "./build/css/intlTelInput.css"
+    "./build/js/intlTelInput.min.js",
+    "./lib/libphonenumber/build/utils.js",
+    "./build/img/flags.png",
+    "./build/css/intlTelInput.css"
   ],
   "dependencies": {
-    "jquery": "~1.9"
+    "jquery": ">=1.7"
+  },
+  "devDependencies": {
+    "jasmine-jquery": "~2.0.2",
+    "flag-icon-css": "~0.6.4"
   }
 }
